@@ -6,5 +6,5 @@ module.exports = function main(scoreStr) {
   for(var i=0;i<arrLength;i++){    
       sum+=parseInt(scores[i])       
       }
-  return 0;
+  return sum;
 };
